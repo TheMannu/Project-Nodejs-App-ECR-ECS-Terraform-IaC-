@@ -53,13 +53,15 @@ This guide walks you through implementing infrastructure for Amazon Elastic Cont
 1. Verify the ECS cluster, task, and ALB configurations in the AWS Management Console.
 2. Access the application via the load balancer DNS name in ec2 dashboard-load balencer to test it's functionality.
 
-### Step 8: Cleanup
-1. Run `terraform destroy` to clean up and delete all created resources.
+
 
 ## Hello World
 
 ![Screenshot (304) (Small)](https://github.com/TheMannu/nodejsApp/assets/84488161/c3370898-e2cf-421d-a88d-83035f4b3b90)
 
+### Step 8: Cleanup
+1. Run `terraform destroy` to clean up and delete all created resources.
+   
 # [linkedIn] (www.linkedin.com/in/ashwank)
 
 
