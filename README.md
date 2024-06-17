@@ -226,7 +226,19 @@ CMD ["node", "server.js"]
 - Create an `ecs` folder inside the `modules` directory add this block.
    - Create an `ecs.tf` resource block in the `modules/ecs` folder to define ECS cluster,subnets,task definition, IAM roles, load balancer, etc.
 ```
+resource "aws_ecs_cluster" "demo_app_cluster" {
+  name = var.demo_app_cluster_name
+}
 
+resource "aws_default_vpc" "default_vpc" {}
+
+resource "aws_default_subnet" "default_subnet_a" {
+  availability_zone = var.availability_zones[0]
+}
+
+resource "aws_default_subnet" "default_subnet_b" {
+  availability_zone = var.availability_zones[1]
+}
 resource "aws_default_subnet" "default_subnet_c" {
   availability_zone = var.availability_zones[2]
 }
