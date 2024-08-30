@@ -475,7 +475,8 @@ module "ecsCluster" {
 
 1. Run `terraform destroy` to clean up and delete all created resources.
 
-## [linkedIn] (www.linkedin.com/in/ashwank)
+
+- **🔗 [LinkedIn](https://www.linkedin.com/in/ashwank/)**: Connect with me on LinkedIn for networking and professional updates.
 
 
 
